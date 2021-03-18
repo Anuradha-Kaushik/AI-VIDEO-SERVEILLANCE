@@ -1,0 +1,39 @@
+body
+{
+    background-position: cover;
+}
+
+h1
+{
+    font-family: 'Berkshire Swash', cursive;
+    color: white;
+    font-size: 100px;
+}
+
+h3
+{
+    color: darkblue;
+}
+
+#number_of_objects, #status, #start
+{
+    font-size: 20px;
+}
+
+canvas
+{
+    border: 2px solid white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+}
+
+.footer_div{
+    background: white;
+    color: blue;
+    text-align: center;
+    font-size: 1em;
+    font-family: 'Dancing Script' cursive;
+    margin-top: 620px;
+    position: fixed;
+    line-height: 3;
+}
