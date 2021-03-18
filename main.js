@@ -1,17 +1,17 @@
-video = "";
+
 status = "";
 objects = [];
 
 function preload()
 {
     video = createVideo('video.mp4');
-    video.hide();
 }
 
 function setup()
 {
     canvas = createCanvas(640,480);
     canvas.position(690, 380);
+    video.hide();
 }
 
 function draw()
@@ -41,11 +41,8 @@ function gotResult(error, results)
     {
         console.log(error);
     }
-    if(results)
-    {
-        console.log(results);
-        objects = results;
-    }
+    console.log(results);
+    objects = results;
 }
 
 function start()
@@ -57,6 +54,7 @@ function start()
 function modelLoaded()
 {
     console.log("Model Loaded");
+    status = true;
     video.loop();
     video.speed(1);
     video.volume(0);
