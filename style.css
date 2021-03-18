@@ -1,6 +1,6 @@
 body
 {
-    background-position: cover;
+    background: cover;
 }
 
 h1
@@ -33,6 +33,7 @@ canvas
     text-align: center;
     font-size: 1em;
     font-family: 'Dancing Script' cursive;
+    width: 100%;
     margin-top: 620px;
     position: fixed;
     line-height: 3;
